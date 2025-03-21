@@ -8,9 +8,9 @@ param acrName string
 param acaEnvironmentName string
 param acaMsiName string
 @allowed([ '0.25', '0.5', '0.75', '1.0', '1.25', '1.5', '1.75', '2.0' ])
-param containerCpu string = '0.25'
+param containerCpu string = '2.0'
 @allowed([ '0.5Gi', '1.0Gi', '1.5Gi', '2.0Gi', '2.5Gi', '3.0Gi', '3.5Gi', '4.0Gi' ])
-param containerMemory string = '0.5Gi'
+param containerMemory string = '4.0Gi'
 param imageTag string
 
 param gitHubAppId string
